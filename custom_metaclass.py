@@ -6,6 +6,7 @@
 # The metaclass is a class that creates classes.
 # Like "type", it is a class that creates classes.
 # The difference is that "type" is a built-in metaclass, and the metaclass is a custom metaclass.
+# If we need a custom metaclass, we need to inherit from type.
 
 
 class UpperAttrMetaclass(type):

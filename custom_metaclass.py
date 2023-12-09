@@ -12,6 +12,7 @@
 class UpperAttrMetaclass(type):
     """The purpose of the custom metaclass is to control the process of instantiating the User class."""
 
+    # def __new__(cls, name, bases, dct, **kwargs):
     def __new__(cls, *args, **kwargs):
         """
         args: is a tuple, and type(name, bases, dict) is written the same way.
